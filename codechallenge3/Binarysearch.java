@@ -1,8 +1,8 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
-    int [] arr1={1,2,3,4,5,6,7};
-    int x0=6;
+    int [] arr1={2};
+    int x0=2;
     int index=intFinder(arr1, x0);
     System.out.println(index);
   }
@@ -48,12 +48,20 @@ break;
 }while(x2-x1 >2);
 System.out.println(x1);
 System.out.println(x2);
+if(index ==-1){
 for(int i=x1+1;i<x2+2;i++){
-  System.out.println("hi");
+  if(i<arr.length-1){
+System.out.println("hi");
   if(arr[i] == x){
   index=i;
   }
+  }else{
+   
+  }
+  
 }
+}
+
 int length =arr.length;
 if(index !=-1){
   if(length %2 !=0){
