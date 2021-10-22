@@ -11,22 +11,34 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         Linkedlist <Integer> linkedlist1=new Linkedlist<>();
+        Linkedlist <Integer> linkedlist2=new Linkedlist<>();
+
         linkedlist1.insert(1);
        // linkedlist1.insert(5);
 
 //
         linkedlist1.append(5);
-        linkedlist1.insertBefor(1,3);
-//        linkedlist1.insertBefor(3,5);
-        linkedlist1.insertBefor(10,11);
-
-
-         linkedlist1.insertAfter(1,6);
-        linkedlist1.insertAfter(5,10);
+        linkedlist1.append(7);
+        linkedlist2.append(3);
+        linkedlist2.append(6);
 
 
 
-        System.out.println(linkedlist1.toString());
+
+//        linkedlist1.insertBefor(1,3);
+////        linkedlist1.insertBefor(3,5);
+//        linkedlist1.insertBefor(10,11);
+//
+//
+//         linkedlist1.insertAfter(1,6);
+//        linkedlist1.insertAfter(5,10);
+//        System.out.println(linkedlist1.toString());
+//       Node returnn= linkedlist1.returnnode(5);
+//
+//
+//
+//
+//        System.out.println(returnn.value.toString());
 
     }
 }
