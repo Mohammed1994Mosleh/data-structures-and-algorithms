@@ -7,4 +7,7 @@
 | Code challenge3 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/codechalleng-3/README.md)                 |
 | Code challenge5 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/linked-list/class05/Readme.md)                 |
 
+| Code challenge7 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/linked-list-kth/codechallenge7/Readme.md)                 |
+
+
 
