@@ -16,4 +16,4 @@
 
 
 
-| Code challenge10 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/linked-list/class05/Readme.md)                 |
+| Code challenge10 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/challenge10/README.md)                 |
