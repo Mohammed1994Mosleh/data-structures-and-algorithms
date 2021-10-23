@@ -21,9 +21,14 @@ public class Queue<T> {
     }
 
     public Node dequeue (){
+       if(front ==rear){
+           rear=null;
+           System.out.println(rear);
+       }
        Node temp=front;
        front = front.next;
        temp.next=null;
+
        return temp;
     }
 
@@ -32,7 +37,7 @@ public class Queue<T> {
     }
 
     public boolean isEmpty(){
-        if(rear ==null){
+        if(rear ==null&&front==null){
             return true;
         }else {return false;}
     }

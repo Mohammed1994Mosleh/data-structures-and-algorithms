@@ -40,6 +40,41 @@ class AppTest {
         //assertEquals(1,test1.top.next.value);
     }
 
+    @Test void enqueuetest() {
+        Queue <Integer> test1=new Queue<>();
+        test1.enqueue(1);
+        test1.enqueue(2);
+        assertEquals(1,test1.front.value);
+        //assertEquals(1,test1.top.next.value);
+    }
+
+    @Test void dequeuetest() {
+        Queue <Integer> test1=new Queue<>();
+        test1.enqueue(1);
+        test1.enqueue(2);
+        Node returnNode= test1.dequeue();
+
+        Node return2=test1.dequeue();
+        System.out.println(test1.front);
+        System.out.println(test1.isEmpty());
+        assertEquals(true,test1.isEmpty());
+
+    }
+
+    @Test void callingdequueinempty() {
+        Queue <Integer> test1=new Queue<>();
+      
+        Node return2=test1.dequeue();
+        System.out.println(test1.front);
+        System.out.println(test1.isEmpty());
+        assertEquals(true,test1.isEmpty());
+
+    }
+
+
+
+
+
 
 
 
