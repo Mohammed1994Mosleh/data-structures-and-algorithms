@@ -40,21 +40,14 @@ public class Linkedlist<T> {
                   break;
               }
               current=current.next;
-
           }
       }
-
-
-
     }
 
     public void insertAfter(T value1,T value2){
         Node newNode=new Node(value2);
         Node current=head;
-
-
         if(current.next ==null && current.value==value1 ){
-
             current.next=newNode;
             newNode.next=null;
         }else {
@@ -66,11 +59,6 @@ public class Linkedlist<T> {
                 current=current.next;
             }
         }
-
-
-
-
-
     }
 
     public String toString (){
@@ -83,9 +71,40 @@ public class Linkedlist<T> {
         }
         result+="Null";
         return result;
-
     }
 
+  public Node returnnode(int value){
+        int count=0;
+        Node returnnode=new Node( 0);
+
+        Node current=head;
+        while(current.next !=null){
+          count++;
+current=current.next;
+        }
+      current=head;
+      System.out.println(count);
+      if(value<=count){
+
+          while(current !=null){
+              if(count-value ==0 ){
+                //  return current;
+
+                  returnnode= current;
+//                  return returnnode
+                //  break;
+              }
+              current=current.next;
+              count--;
+          }
+      }
+      else {
+          System.out.println("hiiii from else");
+          returnnode= null;
+      }
+      System.out.println("hiii");
+return returnnode  ;
+    }
 }
 
 
