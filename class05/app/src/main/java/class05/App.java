@@ -15,7 +15,6 @@ public class App {
 
         System.out.println( linkedlist1.toString());
         System.out.println(linkedlist1.includes(2));
-        System.out.println();
 
     }
 }
