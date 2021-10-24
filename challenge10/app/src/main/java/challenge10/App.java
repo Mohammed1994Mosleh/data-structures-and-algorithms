@@ -9,27 +9,14 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Stack <Integer> newstack=new Stack<>();
-        newstack.push(1);
-//        newstack.push(2);
-//        newstack.push(3);
-       Node newNode= newstack.pop();
-//        System.out.println(newstack.toString());
-//        System.out.println(newstack.top.value);
-        System.out.println(newNode.value);
-        System.out.println(newstack.isEmpty());
-
-        Queue <Integer> newqueue=new Queue<>();
-//        newqueue.enqueue(1);
-//        newqueue.enqueue(2);
-//        newqueue.enqueue(3);
-//        Node returnNode= newqueue.dequeue();
-
-        System.out.println(newqueue.isEmpty());
-        System.out.println(newqueue.toString());
+        pseudoqueue <Integer> pse1=new pseudoqueue<>();
+     //   pse1.enqueue(1);
+     //   System.out.println(pse1.stack1.top.value);
+      //  Node newNode=pse1.dequeue();
+        Node nnewNode2=pse1.dequeue();
+       // System.out.println(newNode.value);
+        System.out.println(nnewNode2.value);
 
 
-
-        System.out.println(new App().getGreeting());
     }
 }

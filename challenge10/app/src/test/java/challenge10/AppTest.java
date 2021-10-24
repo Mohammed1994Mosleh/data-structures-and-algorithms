@@ -63,7 +63,7 @@ class AppTest {
 
     @Test void callingdequueinempty() {
         Queue <Integer> test1=new Queue<>();
-      
+
         Node return2=test1.dequeue();
         System.out.println(test1.front);
         System.out.println(test1.isEmpty());
