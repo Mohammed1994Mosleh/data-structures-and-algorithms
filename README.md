@@ -12,6 +12,6 @@
 | Code challenge10 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/challenge10/README.md)                   |
 | Code challenge11 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/challenge11/README.md)                   |
 | Code challenge12 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/stack-queue-animal-shelter/challenge12/README.md)|
-| Code challenge12 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/ch13/README.md)|
+| Code challenge13 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/ch13/README.md)|
 
 
