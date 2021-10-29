@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7b2e28-d125-418b-98d9-23ff67a60fd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../class89/app/src/main/java/class89/Linkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../class89/app/src/main/java/class89/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../codechallenge6/app/src/main/java/codechallenge6/ZipLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackqueue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackqueue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackqueue/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class05/app/src/main/java/class05/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class05/app/src/main/java/class05/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codechallenge6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codechallenge6/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codechallenge6/app/src/main/java/codechallenge6/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codechallenge6/app/src/main/java/codechallenge6/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codechallenge6/app/src/main/java/codechallenge6/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codechallenge6/app/src/main/java/codechallenge6/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +17,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stackqueue" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codechallenge6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../challenge11" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,6 +97,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/stackqueue$App.ic" NAME="App Coverage Results" MODIFIED="1634817218521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
