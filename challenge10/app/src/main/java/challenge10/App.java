@@ -10,12 +10,12 @@ public class App {
 
     public static void main(String[] args) {
         pseudoqueue <Integer> pse1=new pseudoqueue<>();
-     //   pse1.enqueue(1);
-     //   System.out.println(pse1.stack1.top.value);
-      //  Node newNode=pse1.dequeue();
-        Node nnewNode2=pse1.dequeue();
-       // System.out.println(newNode.value);
-        System.out.println(nnewNode2.value);
+//        pse1.enqueue(1);
+//        System.out.println(pse1.stack1.top.value);
+//        Node newNode=pse1.dequeue();
+//        Node nnewNode2=pse1.dequeue();
+//       // System.out.println(newNode.value);
+//        System.out.println(nnewNode2.value);
 
 
     }
