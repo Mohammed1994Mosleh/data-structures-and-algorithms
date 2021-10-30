@@ -9,6 +9,18 @@ public class App {
     }
 
     public static void main(String[] args) {
+        Pseudoqueue<Integer> test = new Pseudoqueue();
+        test.enqueue(5);
+        test.enqueue(3);
+        test.enqueue(2);
+        test.enqueue(4);
+        test.enqueue(6);
+        test.dequeue();
+        test.enqueue(10);
+        test.dequeue();
+        test.dequeue();
+        System.out.println( test.stack1.toString());
+
         System.out.println(new App().getGreeting());
     }
 }
