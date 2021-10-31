@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-29T12:03:52" hostname="LTUCSTUDENT-L13" time="0.027">
+  <properties/>
+  <testcase name="traversal()" classname="trees.AppTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

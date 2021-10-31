@@ -1,6 +1,7 @@
 package trees;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class BinaryTree<T> {
@@ -51,6 +52,17 @@ public class BinaryTree<T> {
         return postOrderList;
     }
 
+    public Integer getMax(){
+
+        if(root ==null){
+            return 0;
+        }else{
+            List <Integer> maxArray= preOrder((Node) root);
+            return  Collections.max(maxArray);
+        }
+    }
+
+
 
 
     @Override
@@ -60,5 +72,7 @@ public class BinaryTree<T> {
                 ", inOrderList=" + inOrderList +
                 ", postOrderList=" + postOrderList;
     }
+
+
 
 }

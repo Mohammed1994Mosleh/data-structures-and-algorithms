@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="class89.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-22T20:44:39" hostname="LTUCSTUDENT-L13" time="0.028">
+  <properties/>
+  <testcase name="testdifferentsizes()" classname="class89.AppTest" time="0.028"/>
+  <system-out><![CDATA[hi
+hi
+hi
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
