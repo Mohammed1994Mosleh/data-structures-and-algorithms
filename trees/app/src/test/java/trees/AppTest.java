@@ -65,5 +65,29 @@ class AppTest {
 
     }
 
+    @Test
+    public void getMaxTest(){
+
+        BinarySearch testTra =new BinarySearch(new Node<>(5));
+        testTra.add(10);
+        testTra.add(0);
+        assertEquals(10,testTra.getMax());
+
+        // test empty tree
+        BinarySearch testEmpty =new BinarySearch();
+
+        assertEquals(0,testEmpty.getMax());
+
+        //only element on tree
+        BinarySearch testOne =new BinarySearch(new Node<>(1));
+        assertEquals(1,testOne.getMax());
+
+
+
+
+
+
+    }
+
 
 }
