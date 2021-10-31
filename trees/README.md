@@ -14,8 +14,9 @@
 
     2. BinarySearch
        * This class contains these methode:
-         - add
-         - contains
+         - add :To add Node to tree
+         - contains :check if Enterd value contained on tree or not
+         - getMax :this method return maximum value of tree
 
     
     3. Node
