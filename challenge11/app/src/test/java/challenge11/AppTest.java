@@ -11,4 +11,24 @@ class AppTest {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
+
+    @Test void pseudoQueuetest() {
+     Pseudoqueue <Integer> testPsedu=new Pseudoqueue<>();
+     testPsedu.enqueue(1);
+     assertEquals(1,testPsedu.stack1.top.value);
+
+
+     assertEquals(1,testPsedu.dequeue());
+
+     testPsedu.enqueue(4);
+     testPsedu.enqueue(5);
+     testPsedu.dequeue();
+
+     assertEquals(5,testPsedu.stack1.top.value);
+
+
+    }
+
+
+
 }
