@@ -47,9 +47,23 @@ public class BinaryTree<T> {
             if (root.rightChild != null) postOrder(root.rightChild);
             postOrderList.add(root.value);
         } catch (NullPointerException exception) {
-            System.out.println(exception.getMessage());
+
         }
         return postOrderList;
+    }
+
+
+    public int maximumValue() {
+        if (root == null) return 0;
+        if (root.leftChild == null || root.rightChild == null) return root.value;
+        int max = 0;
+        List<Integer> maxList = (List<Integer>) postOrder((Node<T>) root);
+        for (int i = 0; i < maxList.size(); i++) {
+            if (maxList.get(i) >= max) {
+                max = maxList.get(i);
+            }
+        }
+        return max;
     }
 
     public Integer getMax(){
