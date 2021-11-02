@@ -5,6 +5,7 @@ package trees;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -81,6 +82,36 @@ class AppTest {
         //only element on tree
         BinarySearch testOne =new BinarySearch(new Node<>(1));
         assertEquals(1,testOne.getMax());
+
+    }
+
+
+    @Test
+    void teccstBreadthFirstTree() {
+
+        Node root = new Node(5);
+        BinarySearch  test = new BinarySearch(root);
+        test.add(10);
+        test.add(4);
+        ArrayList <Integer> testOne=test.breadthFirstTree(test.root);
+
+        boolean testFlag= testOne.indexOf(5) ==0 &&testOne.indexOf(4) ==1 && testOne.indexOf(10) ==2;
+        assertEquals(true,testFlag);
+
+       Node <Integer> tesNode=new Node<>(5);
+        BinarySearch test2=new BinarySearch(tesNode);
+        ArrayList <Integer> testTwo=test2.breadthFirstTree(test2.root);
+       assertEquals(0,testTwo.indexOf(5));
+
+
+
+
+
+
+
+
+
+
 
 
 

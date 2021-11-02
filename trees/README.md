@@ -17,6 +17,7 @@
          - add :To add Node to tree
          - contains :check if Enterd value contained on tree or not
          - getMax :this method return maximum value of tree
+         - breadthFirstTree :  Write a function called breadth first, Returns list of all values in the tree, in the order they were encountered Traverse the input tree using a Breadth-first approach.
 
     
     3. Node
