@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-31T23:08:07" hostname="LTUCSTUDENT-L13" time="0.029">
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-01T23:52:13" hostname="LTUCSTUDENT-L13" time="0.022">
   <properties/>
-  <testcase name="getMaxTest()" classname="trees.AppTest" time="0.029"/>
+  <testcase name="teccstBreadthFirstTree()" classname="trees.AppTest" time="0.022"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

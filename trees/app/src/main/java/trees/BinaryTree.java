@@ -9,6 +9,8 @@ public class BinaryTree<T> {
     public List<T> preOrderList = new ArrayList<>();
     public List<T> inOrderList = new ArrayList<>();
     public List<T> postOrderList = new ArrayList<>();
+    List<Node> listBreath = new ArrayList<Node>();
+    List<Integer> orderList = new ArrayList<>();
     public Node<Integer> root;
 
     public BinaryTree() {
@@ -31,6 +33,7 @@ public class BinaryTree<T> {
     }
 
     public List<T> inOrder(Node<T> root) {
+
         try {
             if (root.leftChild != null) inOrder(root.leftChild);
             inOrderList.add(root.value);
@@ -52,14 +55,33 @@ public class BinaryTree<T> {
         return postOrderList;
     }
 
-    public Integer getMax(){
+    public Integer getMax() {
 
-        if(root ==null){
+        if (root == null) {
             return 0;
-        }else{
-            List <Integer> maxArray= preOrder((Node) root);
-            return  Collections.max(maxArray);
+        } else {
+            List<Integer> maxArray = preOrder((Node) root);
+            return Collections.max(maxArray);
         }
+    }
+
+
+    public ArrayList<Integer> breadthFirstTree(Node tree){
+
+        listBreath.add(tree);
+        while (listBreath.size()!=0) {
+            Node node= listBreath.get(0);
+            orderList.add((Integer) node.value);
+            listBreath.remove(0);
+            if(node.leftChild != null){
+                listBreath.add(node.leftChild);
+            }
+            if(node.rightChild != null){
+                listBreath.add(node.rightChild);
+            }
+
+        }
+        return (ArrayList<Integer>) orderList;
     }
 
 
