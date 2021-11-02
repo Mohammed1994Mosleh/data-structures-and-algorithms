@@ -11,12 +11,12 @@ public class BinaryTree<T> {
     public List<T> postOrderList = new ArrayList<>();
     List<Node> listBreath = new ArrayList<Node>();
     List<Integer> orderList = new ArrayList<>();
-    public Node<Integer> root;
+    public Node<T> root;
 
     public BinaryTree() {
     }
 
-    public BinaryTree(Node<Integer> root) {
+    public BinaryTree(Node<T> root) {
         this.root = root;
     }
 
@@ -83,6 +83,20 @@ public class BinaryTree<T> {
         }
         return (ArrayList<Integer>) orderList;
     }
+
+//    public BinaryTree <Integer> fizzBuzz(BinaryTree treeIntegers){
+//        BinaryTree <Integer> returnedTree=new BinaryTree<>();
+//        List <Integer> returnArray=treeIntegers.preOrder(treeIntegers.root);
+//        for(Integer item:returnArray){
+//            if(item%3==0){
+//                returnedTree.
+//            }
+//        }
+//
+//
+//
+//
+//    }
 
 
 

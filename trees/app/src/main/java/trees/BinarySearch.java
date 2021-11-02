@@ -1,6 +1,8 @@
 package trees;
 
-public class BinarySearch extends BinaryTree {
+import java.util.List;
+
+public class BinarySearch<T> extends BinaryTree {
 
     public BinarySearch(Node root) {
         super(root);
@@ -14,8 +16,11 @@ public class BinarySearch extends BinaryTree {
 
 
     public void add(Integer value) {
+
+
         if (root.value == null) {
             System.out.println(root.value);
+
             root = new Node<>(value);
         } else {
             Node<Integer> current = root;
@@ -30,6 +35,26 @@ public class BinarySearch extends BinaryTree {
                 }
             }
         }
+    }
+
+    public void addForqueue(Node <Integer> value){
+String returnString="";
+
+        if(value.value%3==0){
+            returnString="fizz" ;
+        }else if(value.value%5==0){
+            returnString="buzz" ;
+        }else if(value.value%3==0 &&value.value%5==0){
+            returnString="fizzbuzz" ;
+        }
+        if(root !=null){
+
+
+
+
+        }
+
+
     }
 
     public boolean contains(Integer value) {
@@ -47,6 +72,8 @@ public class BinarySearch extends BinaryTree {
         }
         return false;
     }
+
+
 
 
 }
