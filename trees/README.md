@@ -22,3 +22,7 @@
     
     3. Node
 
+    4. FizzBuzzTree
+
+       * This function that accept K-ary tree as parameter and return a k-ary tree with values of fizz if the tree node devisible by 3    and buzz if the tree node devisible by 5 and fizzbuzz if divisble by 3 and 5
+

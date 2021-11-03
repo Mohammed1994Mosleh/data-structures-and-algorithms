@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-01T23:52:13" hostname="LTUCSTUDENT-L13" time="0.022">
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-03T00:03:01" hostname="LTUCSTUDENT-L13" time="0.044">
   <properties/>
-  <testcase name="teccstBreadthFirstTree()" classname="trees.AppTest" time="0.022"/>
+  <testcase name="FizzBuzz()" classname="trees.AppTest" time="0.044"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
