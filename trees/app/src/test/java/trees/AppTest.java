@@ -103,21 +103,19 @@ class AppTest {
         ArrayList <Integer> testTwo=test2.breadthFirstTree(test2.root);
        assertEquals(0,testTwo.indexOf(5));
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //fizzbuzz test
+    @Test
+    void FizzBuzz(){
+        FizzBuzzTree tree = new FizzBuzzTree();
+        tree.root = new KNode(1);
+        tree.root.left = new KNode(3);
+        tree.root.right = new KNode(2);
+        tree.root.left.left = new KNode(5);
+        tree.root.left.right = new KNode(88);
+        tree.root.right.left = new KNode(15);
+        tree.root.right.right = new KNode(50);
     }
 
 

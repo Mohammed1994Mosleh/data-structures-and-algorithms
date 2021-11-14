@@ -4,6 +4,7 @@
 package trees;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class App {
     public String getGreeting() {
@@ -24,8 +25,29 @@ public class App {
         test.add(8);
 
         ArrayList <Integer> returnBreath= test.breadthFirstTree(test.root);
-        System.out.println(returnBreath);
+      //  System.out.println(returnBreath);
+
+        FizzBuzzTree tree = new FizzBuzzTree();
+        tree.root = new KNode(1);
+        tree.root.left = new KNode(3);
+        tree.root.right = new KNode(2);
+        tree.root.left.left = new KNode(5);
+        tree.root.left.right = new KNode(88);
+        tree.root.right.left = new KNode(15);
+        tree.root.right.right = new KNode(50);
+        System.out.println("Tree before Apply FizzBuzz function👇\n");
+        tree.printPreorderA(tree.root);
+        System.out.println("\n\nTree After Apply FizzBuzz function👇\n");
+        tree.preorder(tree.root);
+        System.out.println("\n_____________________________________________________________________________________________\n\n\n");
+
 
 
     }
-}
+
+
+
+
+
+
+    }
