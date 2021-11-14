@@ -8,7 +8,22 @@ public class App {
         return "Hello World!";
     }
 
+
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Insertionsort testInsert=new Insertionsort();
+
+        int [] testArray= {8,4,23,42,16,15};
+
+        int [] retrnArray=testInsert.insertionSort(testArray);
+
+        for (int item:retrnArray){
+            System.out.println(item);
+        }
+
+
+
+
+
+
     }
 }
