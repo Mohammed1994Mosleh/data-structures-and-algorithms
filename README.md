@@ -15,6 +15,9 @@
 | Code challenge13 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/ch13/README.md)|
 | Code challenge15 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/trees/README.md)|
 | Code challenge16 | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/tree-max/trees/README.md)|
+| inserionsort | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/InsertionSort/README.md)|
+| mergesort | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/mergesort/README.md)|
+| QuickSort | [link](https://github.com/Mohammed1994Mosleh/data-structures-and-algorithms/blob/main/QuickSort/README.md)|
 
 
 
