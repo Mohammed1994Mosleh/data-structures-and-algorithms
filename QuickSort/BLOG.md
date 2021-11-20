@@ -47,12 +47,99 @@ ALGORITHM Swap(arr, i, low)
 
  ### Trace:
 
-- Pass1:
-   the first thing we devide the array into two halves , one half is less than the Pivot and the other one is larger.
+* Tracing QuickSort([8,4,23,42,16,15],0,5)
 
-- Pass2:
-    the two halves will be devided again in the same way as we did in pass1 so we will have 4 arrays now.
 
-- pass3:
-   the same thing in the pass1 one will keep happening untill the whole elements of the array are sorted from the smallest to largest.
-    whenever you see a P in the picture that means this is the pivot which we will devide the array accordingly.
+#### First QuickSort for main arr
+
+- is 0<5 yes then 
+  - position =partition ([8,4,23,42,16,15],0,5)
+  - pivot=arr[5]=15
+  -low=0-1=-1
+  - loop from (0-4)
+  - i=0 -->
+   - (4<15) 
+     -low=0+1
+     - swap([8,4,23,42,16,15],0,0)-->arr=[8,4,23,42,16,15]
+     
+ 
+  - i=2
+     (23>15) ===>move to next iteration 
+
+   - i=3
+     (42>15)===>move to next iteration
+
+   - i=4
+     (16>15)===>break
+   
+ - swap([8,4,23,42,16,15],5,2) ===>arr=[8,4,15,42,16,23]
+
+ - position =2
+
+
+
+ #### QuickSort for left arr
+
+ - QuickSort for left arr 
+ -QuickSort([8,4,15,42,16,23],0,1)
+
+ - (0<1)
+
+- position =partition ([8,4,23,42,16,15],0,1)
+  - pivot=arr[1]=4
+  - low=0-1=-1
+  - loop from (0-0)
+   - i=0 -->
+     - (8<15) 
+     - low++=0
+     - swap([8,4,23,42,16,15],0,0)-->arr=[8,4,23,42,16,15]
+
+   - swap([8,4,23,42,16,15],1,0) ===> arr=[4,8,23,42,16,15]
+   - position =0
+
+   - QuickSort([4,8,23,42,16,15],0,-1)
+   - 0>-1 ===>break 
+
+   - QuickSort([4,8,23,42,16,15],1,1)
+   - 1=1 ===>break 
+
+ #### QuickSort for Right arr
+
+ - QuickSort([4,8,23,42,16,15],3,5)
+
+  - pivot=arr[5]=23
+  - low=3-1=2
+  - loop from (3-4)
+     - i=3
+       (42>23)===>move to next iteration
+     - i=4 -->
+       - (16<23) 
+       - low++=3
+       - swap([4,8,15,42,16,23],4,3)-->arr=[4,8,15,16,42,15]
+
+    - swap([4,8,15,16,42,23],5,4)-->arr=[4,8,15,16,23,42]
+
+
+ -QuickSort([4,8,15,16,42,23],3,3) ===>The same array
+ 
+ - QuickSort([4,8,15,16,42,23],5,5) ===>The same array
+
+
+      
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
