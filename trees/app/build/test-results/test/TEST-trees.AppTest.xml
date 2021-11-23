@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-03T00:03:01" hostname="LTUCSTUDENT-L13" time="0.044">
+<testsuite name="trees.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-23T02:06:11" hostname="LTUCSTUDENT-L13" time="0.031">
   <properties/>
-  <testcase name="FizzBuzz()" classname="trees.AppTest" time="0.044"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testduplicateValues()" classname="trees.AppTest" time="0.031"/>
+  <system-out><![CDATA[2
+2
+5
+5
+3
+3
+11
+9
+10
+2
+2
+5
+5
+3
+3
+11
+11
+9
+9
+10
+10
+2
+2
+5
+5
+3
+3
+11
+11
+9
+9
+10
+10
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
