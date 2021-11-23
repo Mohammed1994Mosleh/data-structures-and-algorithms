@@ -69,6 +69,7 @@ class AppTest {
     @Test
     public void getMaxTest(){
 
+
         BinarySearch testTra =new BinarySearch(new Node<>(5));
         testTra.add(10);
         testTra.add(0);
@@ -88,6 +89,7 @@ class AppTest {
 
     @Test
     void teccstBreadthFirstTree() {
+
 
         Node root = new Node(5);
         BinarySearch  test = new BinarySearch(root);
@@ -117,6 +119,62 @@ class AppTest {
         tree.root.right.left = new KNode(15);
         tree.root.right.right = new KNode(50);
     }
+
+@Test
+    void testduplicateValues(){
+        Treeintersection testDuplicate=new Treeintersection();
+        Node root1=new Node(1);
+        BinarySearch<Integer> tsetTree1=new BinarySearch<>();
+
+        ArrayList<Integer> testArray=new ArrayList<>();
+
+        Node root2=new Node(2);
+        BinarySearch<Integer> tsetTree2=new BinarySearch<>();
+       tsetTree1.root=root1;
+       tsetTree2.root=root2;
+
+        testArray=testDuplicate.duplicateValues(tsetTree1,tsetTree2);
+        ArrayList <Integer> expecetedArray=new ArrayList<>();
+
+        // Test if their is no Duplicate
+        assertEquals(expecetedArray,testArray);
+
+    Node <Integer>testNode=new Node(1);
+    Node <Integer> tesNode2=new Node<>(2);
+    Treeintersection testSearch=new Treeintersection();
+
+    BinarySearch test =new BinarySearch();
+    BinarySearch test2 =new BinarySearch();
+    test.root=testNode;
+    test2.root=tesNode2;
+
+
+    test.add(5);
+    test.add(7);
+    test.add(3);
+    test.add(14);
+    test.add(8);
+
+    test2.add(5);
+    test2.add(11);
+    test2.add(3);
+
+    test2.add(9);
+    test2.add(10);
+
+    ArrayList<Integer> testArray2=new ArrayList<>();
+    testArray.add(5);
+    testArray.add(3);
+
+
+    testArray2=testSearch.duplicateValues(test,test2);
+    assertEquals(testArray2,testSearch.duplicateValues(test,test2));
+
+
+
+
+
+}
 
 
 }

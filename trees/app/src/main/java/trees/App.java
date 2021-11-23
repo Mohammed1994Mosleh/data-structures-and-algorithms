@@ -13,41 +13,33 @@ public class App {
 
     public static void main(String[] args) {
         Node <Integer>testNode=new Node(1);
+        Node <Integer> tesNode2=new Node<>(2);
+        Treeintersection testSearch=new Treeintersection();
 
         BinarySearch test =new BinarySearch();
+        BinarySearch test2 =new BinarySearch();
         test.root=testNode;
+        test2.root=tesNode2;
 
-        System.out.println(test.getMax());
+
         test.add(5);
         test.add(7);
         test.add(3);
         test.add(14);
         test.add(8);
 
-        ArrayList <Integer> returnBreath= test.breadthFirstTree(test.root);
-      //  System.out.println(returnBreath);
+        test2.add(5);
+        test2.add(11);
+        test2.add(3);
 
-        FizzBuzzTree tree = new FizzBuzzTree();
-        tree.root = new KNode(1);
-        tree.root.left = new KNode(3);
-        tree.root.right = new KNode(2);
-        tree.root.left.left = new KNode(5);
-        tree.root.left.right = new KNode(88);
-        tree.root.right.left = new KNode(15);
-        tree.root.right.right = new KNode(50);
-        System.out.println("Tree before Apply FizzBuzz function👇\n");
-        tree.printPreorderA(tree.root);
-        System.out.println("\n\nTree After Apply FizzBuzz function👇\n");
-        tree.preorder(tree.root);
-        System.out.println("\n_____________________________________________________________________________________________\n\n\n");
+        test2.add(9);
+        test2.add(10);
 
+        ArrayList<Integer> testArray=new ArrayList<>();
 
+        testArray=testSearch.duplicateValues(test,test2);
+        System.out.println(testArray);
 
     }
 
-
-
-
-
-
-    }
+}
