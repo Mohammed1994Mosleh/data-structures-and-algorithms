@@ -1,6 +1,9 @@
 # Graphs
 A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.
 
+## Whiteboard Process
+![](graph.png)
+
 - This application contains these methods:
 
 1. add node
@@ -35,6 +38,7 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 ## Challenge
 
 - Implement your own Graph. The graph should be represented as an adjacency list, and should include the required methods.
+- Write method to traverse graph using breadth first algorithim.
 
 ## Approach & Efficiency
 
