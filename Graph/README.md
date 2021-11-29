@@ -2,9 +2,14 @@
 A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.
 
 ## Whiteboard Process
+
+- Whiteboard for breadthfirst
 ![](graph.png)
 
-- This application contains these methods:
+- Whiteboard for businesstrip
+![](businesstrip.png)
+
+## This application contains these methods:
 
 1. add node
   - Arguments: value
@@ -32,13 +37,24 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
 5. size
 
-  - Arguments: none
-  - Returns the total number of nodes in the graph
+  - Arguments: graph, array of city names
+  - Returns cost or null
+
+6. businesstrip
+
+   - Arguments: node
+   - Returns a collection of edges connected to the given node
+    Include the weight of the connection in the returned collection
 
 ## Challenge
 
 - Implement your own Graph. The graph should be represented as an adjacency list, and should include the required methods.
 - Write method to traverse graph using breadth first algorithim.
+
+## Challenge for businesstrip
+
+-  Write method called businesstrip that determines trip is possible with direct flights and how much it would cost.
+
 
 ## Approach & Efficiency
 
@@ -71,4 +87,9 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
    Time : O(1), no loops.
 
    Space : O(1), no extra spaces.
+
+   ## Approach & Efficiency for businesstrip
+
+- Time.O(n)
+- Space O(1).
 
