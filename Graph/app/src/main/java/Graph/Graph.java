@@ -88,6 +88,18 @@ public class Graph<T> {
         return nodes;
     }
 
+    public String businessTrip(T value, T[] arr) {
+        int cost = 0;
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (getNeighbors(arr[i]).contains(new Node<>(arr[i + 1]))) {
+                cost += weightList.get(arr[i] + "->" + arr[i + 1]);
+            } else {
+                return "False, $0";
+            }
+        }
+        return true + ", $" + cost;
+    }
+
 
 
     @Override
