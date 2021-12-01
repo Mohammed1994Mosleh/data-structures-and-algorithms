@@ -9,6 +9,9 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 - Whiteboard for businesstrip
 ![](businesstrip.png)
 
+-Whiteboard for Depth-First
+![](depth.png)
+
 ## This application contains these methods:
 
 1. add node
@@ -46,6 +49,13 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
    - Returns a collection of edges connected to the given node
     Include the weight of the connection in the returned collection
 
+7. Depth-first
+
+   - Name: Depth first
+   - Arguments: Node (Starting point of search)
+   - Return: A collection of nodes in their pre-order depth-first traversal order
+     Program output: Display the collection.
+
 ## Challenge
 
 - Implement your own Graph. The graph should be represented as an adjacency list, and should include the required methods.
@@ -54,6 +64,10 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 ## Challenge for businesstrip
 
 -  Write method called businesstrip that determines trip is possible with direct flights and how much it would cost.
+
+## Challenge for Depth-first
+
+-  Write method to traverse graph using Depth-First algorithim.
 
 
 ## Approach & Efficiency
@@ -88,8 +102,13 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
    Space : O(1), no extra spaces.
 
-   ## Approach & Efficiency for businesstrip
+## Approach & Efficiency for businesstrip
 
 - Time.O(n)
 - Space O(1).
+
+## Approach & Efficiency for Depth-First
+
+- Time.O(n^2)
+- Space O(n).
 
